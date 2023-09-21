@@ -1,0 +1,27 @@
+@media screen and (max-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  img {
+    width: 350px;
+    margin-left: 50px;
+  }
+
+  #programar {
+    width: 350px;
+    display: none;
+  }
+
+  #laptop {
+    display: none;
+  }
+
+  #rodape {
+    margin-left: 155px;
+  }
+}

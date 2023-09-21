@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(35, 35, 35);
+  color: white;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  font-family: "Nunito", sans-serif;
+  background-image: url(../imagens/controle.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  line-height: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  border-bottom: 2px solid rgb(132, 14, 201);
+}
+
+li {
+  display: inline-block;
+  margin: 20px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: rgb(132, 14, 201);
+  transition: 0.3s;
+}
+
+#start {
+  border: 2px solid rgb(132, 14, 201);
+  padding: 5px;
+  border-radius: 15px;
+}
+
+#start:hover {
+  background-color: rgb(132, 14, 201);
+  color: white;
+}
+
+.cabecalho {
+  font-weight: 200;
+}
+
+#game {
+  font-weight: 400;
+  color: rgb(132, 14, 201);
+}
+
+img {
+  width: 500px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+aside {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.253);
+  padding: 10px;
+}
+
+h2 {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+#programar {
+  display: flex;
+  flex-direction: row;
+  width: 750px;
+  margin-left: 30px;
+}
+
+#programe {
+  color: rgb(118, 9, 180);
+  max-height: 100%;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+b {
+  word-spacing: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+form {
+  flex-direction: column;
+}
+
+input {
+  width: 70%;
+  align-items: center;
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+}
+
+form [type="submit"] {
+  background-color: rgb(132, 14, 201);
+  color: white;
+  width: 50%;
+  cursor: pointer;
+  padding: 20px;
+  align-items: center;
+  font-weight: bolder;
+}
+
+#enviar:hover {
+  background-color: rgba(31, 31, 31, 0.89);
+  color: rgb(132, 14, 201);
+  transition: 0.3s;
+}
+
+#laptop {
+  margin-left: 100px;
+  width: 480px;
+}
+
+footer {
+  text-align: center;
+  border-top: 2px solid rgb(132, 14, 201);
+}
+
+#rodape {
+  text-align: center;
+  margin-left: 535px;
+}
